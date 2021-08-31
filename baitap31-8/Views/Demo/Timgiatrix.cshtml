@@ -5,11 +5,12 @@
 }
 
 <h2>Timgiatrix</h2>
+@using (Html.BeginForm())
 {
-<label>số thứ nhất  : </label>
-<input type="text" name="soA" />
-<label>số thứ hai  : </label>
-<input type="text" name="soB" />
-<input type="submit" value="Tìm giá trị X" />
+    <label>số thứ nhất  : </label>
+    <input type="text" name="soA" />
+    <label>số thứ hai  : </label>
+    <input type="text" name="soB" />
+    <input type="submit" value="Tìm giá trị X" />
 }
 <label>gia tri cua x la : @ViewBag.nghiemcuax </label>
