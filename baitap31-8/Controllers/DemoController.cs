@@ -12,6 +12,7 @@ namespace baitap31_8.Controllers
         {
             return View();
         }
+        [HttpPost]
         public ActionResult Timgiatrix(string soA, string soB)
         {
             double so1 = Convert.ToDouble(soA);
