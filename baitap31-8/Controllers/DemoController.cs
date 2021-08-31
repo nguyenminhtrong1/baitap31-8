@@ -8,11 +8,11 @@ namespace baitap31_8.Controllers
 {
     public class DemoController : Controller
     {
-        public ActionResult Timx()
+        public ActionResult index()
         {
             return View();
         }
-        public ActionResult Timx(string soA, string soB)
+        public ActionResult Timgiatrix(string soA, string soB)
         {
             double so1 = Convert.ToDouble(soA);
             double so2 = Convert.ToDouble(soB);
