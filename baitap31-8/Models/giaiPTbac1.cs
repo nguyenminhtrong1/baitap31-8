@@ -10,7 +10,7 @@ namespace baitap31_8.Models
         public double Timx( double a, double b)
         {
             double giatrix = 0;
-            giatrix = -b / a;
+            giatrix = b / a;
             return giatrix;
         }
     }
