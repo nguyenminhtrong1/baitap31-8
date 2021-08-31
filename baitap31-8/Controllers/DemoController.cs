@@ -14,9 +14,9 @@ namespace baitap31_8.Controllers
         }
         public ActionResult Timgiatrix(string soA, string soB)
         {
-            int so1 = Convert.ToInt16(soA);
-            int so2 = Convert.ToInt16(soB);
-            int Timx = so2 / so1;
+            double so1 = Convert.ToDouble(soA);
+            double so2 = Convert.ToDouble(soB);
+            double Timx = so2 / so1;
             ViewBag.nghiemcuax = Timx;
             
             return View();
