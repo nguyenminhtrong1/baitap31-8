@@ -17,7 +17,7 @@ namespace baitap31_8.Controllers
             double so1 = Convert.ToDouble(soA);
             double so2 = Convert.ToDouble(soB);
             double Timx = -so2 / so1;
-            ViewBag.timgtx = Timx;
+            ViewBag.nghiemcuax = Timx;
             
             return View();
         }
