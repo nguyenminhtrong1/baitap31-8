@@ -7,7 +7,7 @@ namespace baitap31_8.Models
 {
     public class giaiPTbac1
     {
-        public double Timgiatrix( double a, double b)
+        public double Timx( double a, double b)
         {
             double giatrix = 0;
             giatrix = b / a;
