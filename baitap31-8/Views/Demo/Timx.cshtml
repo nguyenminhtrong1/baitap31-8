@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Timx";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Timx</h2>
+@using (Html.BeginForm())
+{
+    <label>So a : </label>
+    <input type="text" name="soA" />
+    <label>So b : </label>
+    <input type="text" name="soB" />
+    <input type="submit" value="Tìm giá trị X"/>
+}
+<label>gia tri cua x la : @ViewBag.timgtx</label>
